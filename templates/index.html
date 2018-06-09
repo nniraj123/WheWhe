@@ -1,0 +1,48 @@
+$def with (nombre)
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Jorge Alonso Toro" />
+    <meta name="generator" content="web.py" />
+    <title>Hola Mundo</title>
+    <style type="text/css">
+      
+       p {
+         font-style: italic;
+         font-family: arial;
+         color: gray;
+         margin: .8em;
+       }
+
+       span {
+         font-weight: bold;
+         font-style: normal;
+       }
+
+       #msg {
+         -moz-border-radius: 5px 5px 5px 5px;
+         background-color: #f4f4ff;
+         border: 1px solid #AACCEE;
+         width: 20em;
+       }
+       #sld {
+         -moz-border-radius: 3px 3px 3px 3px;
+         background-color: #f4f4ff;
+         border: 1px solid #AACCEE;
+         width: 20em;
+       }
+     
+     </style>
+   </head>
+   <body>
+   $if nombre:
+     <div id="msg">
+       <p>Solo quer&iacute;a decirte hola<span> $nombre</span></p>
+     </div>
+   $else:
+     <div id="sld">
+       <p>Hola, <span>Mundo</span></p>
+     </div>
+   </body>
+ </html>

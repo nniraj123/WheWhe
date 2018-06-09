@@ -1,0 +1,10 @@
+$def with (form)
+
+<!-- cuando le doy envia me llama al método POST -->
+<form name="main" method="post">
+  <!-- valid(self, value), es un método de Validator(self, msg, test, jstest=None)
+  y de regexp(self, rexp, msg), que hacen parte del type Textbox -->
+  $if not form.valid: <p class="error">Try again</p>
+  $:form.render()
+  <input type="submit" />
+ </form>
