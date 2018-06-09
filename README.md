@@ -1,6 +1,6 @@
 # WheWhe
 The application that will help you decide when and where is the best time and place to travel based on the weather and economical constraints.
-Input:
+# Input:
 Leave on
 Return on
 Departure City
