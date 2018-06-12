@@ -4,8 +4,12 @@ The application that will help you decide when and where is the best time and pl
 * Leave on
 * Return on
 * Departure City
-* Weather Expected
-
+* Total Budget of trip
+* Type of person you are, like:
+  * Tan-aholic(Weather is most important)
+  * Equilibrated (Both money and weather matters)
+  * Student(more concerned about the cost of the trip)
+  
 # Output:
 * Destination City
 * Flight Prices
