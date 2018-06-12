@@ -6,7 +6,7 @@ Return on
 Departure City
 Weather Expected
 
-Output:
+# Output:
 Destination City
 Flight Prices
 Hotel Prices
