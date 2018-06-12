@@ -14,7 +14,8 @@ The application that will help you decide when and where is the best time and pl
 * Destination City
 * Flight Prices
 * Hotel Prices
-* Interest Points
+* Big Mac Index
 * Weather expected
+* WheWhe Score 
 
 ### That's it. Let's book one!!
